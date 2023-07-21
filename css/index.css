@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: red;
+}
+
+#caja1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid #000;
+}
+
+#caja2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid #000;
+}
+
+/* esta es mi caja 3 */
+#caja3{
+    width: 100px; /*este es el ancho de mi caja */
+    height: 100px; /*este es el alto de mi caja */
+    background-color: green; 
+    border: 2px solid #000;
+}
+
+.contenedor{
+    display: flex;
+    gap: 50px;
+}
+
